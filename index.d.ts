@@ -1,227 +1,271 @@
 
-export enum color_codes {
+export enum ColorCodes {
     /** Hex: "#000000" */
-    black = "§0",
+    Black = "§0",
     /** Hex: "#0000AA" */
-    dark_blue = "§1",
+    DarkBlue = "§1",
     /** Hex: "#00AA00" */
-    dark_green = "§2",
+    DarkGreen = "§2",
     /** Hex: "#00AAAA" */
-    dark_aqua = "§3",
+    DarkAqua = "§3",
     /** Hex: "#AA0000" */
-    dark_red = "§4",
+    DarkRed = "§4",
     /** Hex: "#AA00AA" */
-    dark_purple = "§5",
+    DarkPurple = "§5",
     /** Hex: "#FFAA00" */
-    gold = "§6",
+    Gold = "§6",
     /** Hex: "#AAAAAA" */
-    gray = "§7",
+    Gray = "§7",
     /** Hex: "#555555" */
-    dark_gray = "§8",
+    DarkGray = "§8",
     /** Hex: "#5555FF" */
-    blue = "§9",
+    Blue = "§9",
     /** Hex: "#55FF55" */
-    green = "§a",
+    Green = "§a",
     /** Hex: "#55FFFF" */
-    aqua = "§b",
+    Aqua = "§b",
     /** Hex: "#FF5555" */
-    red = "§c",
+    Red = "§c",
     /** Hex: "#FF55FF" */
-    light_purple = "§d",
+    LightPurple = "§d",
     /** Hex: "#FFFF55" */
-    yellow = "§e",
+    Yellow = "§e",
     /** Hex: "#FFFFFF" */
-    white = "§f",
+    White = "§f",
     /** Hex: "#DDD605"
      * @remarks Bedrock Only
      */
-    minecoin_gold = "§g",
+    MinecoinGold = "§g",
     /** Hex: "#E3D4D1"
      * @remarks Bedrock Only
      */
-    material_quartz = "§h",
+    AaterialQuartz = "§h",
     /** Hex: "#CECACA"
      * @remarks Bedrock Only
      */
-    material_iron = "§i",
+    MaterialIron = "§i",
     /** Hex: "#443A3B"
      * @remarks Bedrock Only
      */
-    material_netherite = "§j",
+    MaterialNetherite = "§j",
     /** Hex: "#971607"
      * @remarks Bedrock Only
      */
-    material_redstone = "§m",
+    MaterialRedstone = "§m",
     /** Hex: "#B4684D"
      * @remarks Bedrock Only
      */
-    material_copper = "§n",
+    MaterialCopper = "§n",
     /** Hex: "#DEB12D"
      * @remarks Bedrock Only
      */
-    material_gold = "§p",
+    MaterialGold = "§p",
     /** Hex: "#47A036"
      * @remarks Bedrock Only
      */
-    material_emerald = "§q",
+    MaterialEmerald = "§q",
     /** Hex: "#2CBAA8"
      * @remarks Bedrock Only
      */
-    material_diamond = "§s",
+    MaterialDiamond = "§s",
     /** Hex: "#21497B"
      * @remarks Bedrock Only
      */
-    material_lapis = "§t",
+    MaterialLapis = "§t",
     /** Hex: "#9A5CC6"
      * @remarks Bedrock Only
      */
-    material_amethyst = "§u"
+    MaterialAmethyst = "§u"
   }
   
-  export enum format_codes {
-    obfuscated = "§k",
-    bold = "§l",
+  export enum formatCodes {
+    Obfuscated = "§k",
+    Bold = "§l",
     /**@remarks Java Only */
-    striketrough = "§m",
+    Striketrough = "§m",
     /** @remarks Java Only */
-    underline = "§n",
-    italic = "§o",
-    reset = "§r"
+    Underline = "§n",
+    Italic = "§o",
+    Reset = "§r"
   }
 
   //I thought I could save some boilerplate but nope
   //export type bedrock_color_codes = color_codes;
 
-  export enum bedrock_color_codes {
+  export enum BedrockColorCodes {
     /** Hex: "#000000" */
-    black = "§0",
+    Black = "§0",
     /** Hex: "#0000AA" */
-    dark_blue = "§1",
+    DarkBlue = "§1",
     /** Hex: "#00AA00" */
-    dark_green = "§2",
+    DarkGreen = "§2",
     /** Hex: "#00AAAA" */
-    dark_aqua = "§3",
+    DarkAqua = "§3",
     /** Hex: "#AA0000" */
-    dark_red = "§4",
+    DarkRed = "§4",
     /** Hex: "#AA00AA" */
-    dark_purple = "§5",
+    DarkPurple = "§5",
     /** Hex: "#FFAA00" */
-    gold = "§6",
+    Gold = "§6",
     /** Hex: "#AAAAAA" */
-    gray = "§7",
+    Gray = "§7",
     /** Hex: "#555555" */
-    dark_gray = "§8",
+    DarkGray = "§8",
     /** Hex: "#5555FF" */
-    blue = "§9",
+    Blue = "§9",
     /** Hex: "#55FF55" */
-    green = "§a",
+    Green = "§a",
     /** Hex: "#55FFFF" */
-    aqua = "§b",
+    Aqua = "§b",
     /** Hex: "#FF5555" */
-    red = "§c",
+    Red = "§c",
     /** Hex: "#FF55FF" */
-    light_purple = "§d",
+    LightPurple = "§d",
     /** Hex: "#FFFF55" */
-    yellow = "§e",
+    Yellow = "§e",
     /** Hex: "#FFFFFF" */
-    white = "§f",
+    White = "§f",
     /** Hex: "#DDD605"
      * @remarks Bedrock Only
      */
-    minecoin_gold = "§g",
+    MinecoinGold = "§g",
     /** Hex: "#E3D4D1"
      * @remarks Bedrock Only
      */
-    material_quartz = "§h",
+    AaterialQuartz = "§h",
     /** Hex: "#CECACA"
      * @remarks Bedrock Only
      */
-    material_iron = "§i",
+    MaterialIron = "§i",
     /** Hex: "#443A3B"
      * @remarks Bedrock Only
      */
-    material_netherite = "§j",
+    MaterialNetherite = "§j",
     /** Hex: "#971607"
      * @remarks Bedrock Only
      */
-    material_redstone = "§m",
+    MaterialRedstone = "§m",
     /** Hex: "#B4684D"
      * @remarks Bedrock Only
      */
-    material_copper = "§n",
+    MaterialCopper = "§n",
     /** Hex: "#DEB12D"
      * @remarks Bedrock Only
      */
-    material_gold = "§p",
+    MaterialGold = "§p",
     /** Hex: "#47A036"
      * @remarks Bedrock Only
      */
-    material_emerald = "§q",
+    MaterialEmerald = "§q",
     /** Hex: "#2CBAA8"
      * @remarks Bedrock Only
      */
-    material_diamond = "§s",
+    MaterialDiamond = "§s",
     /** Hex: "#21497B"
      * @remarks Bedrock Only
      */
-    material_lapis = "§t",
+    MaterialLapis = "§t",
     /** Hex: "#9A5CC6"
      * @remarks Bedrock Only
      */
-    material_amethyst = "§u"
+    MaterialAmethyst = "§u"
   }
 
-  export enum bedrock_format_codes {
-    obfuscated = "§k",
-    bold = "§l",
-    italic = "§o",
-    reset = "§r"
+  export enum BedrockFormatCodes {
+    Obfuscated = "§k",
+    Bold = "§l",
+    Italic = "§o",
+    Reset = "§r"
   }
 
-  export enum java_color_codes {
+  export enum JavaColorCodes {
     /** Hex: "#000000" */
-    black = "§0",
+    Black = "§0",
     /** Hex: "#0000AA" */
-    dark_blue = "§1",
+    DarkBlue = "§1",
     /** Hex: "#00AA00" */
-    dark_green = "§2",
+    DarkGreen = "§2",
     /** Hex: "#00AAAA" */
-    dark_aqua = "§3",
+    DarkAqua = "§3",
     /** Hex: "#AA0000" */
-    dark_red = "§4",
+    DarkRed = "§4",
     /** Hex: "#AA00AA" */
-    dark_purple = "§5",
+    DarkPurple = "§5",
     /** Hex: "#FFAA00" */
-    gold = "§6",
+    Gold = "§6",
     /** Hex: "#AAAAAA" */
-    gray = "§7",
+    Gray = "§7",
     /** Hex: "#555555" */
-    dark_gray = "§8",
+    DarkGray = "§8",
     /** Hex: "#5555FF" */
-    blue = "§9",
+    Blue = "§9",
     /** Hex: "#55FF55" */
-    green = "§a",
+    Green = "§a",
     /** Hex: "#55FFFF" */
-    aqua = "§b",
+    Aqua = "§b",
     /** Hex: "#FF5555" */
-    red = "§c",
+    Red = "§c",
     /** Hex: "#FF55FF" */
-    light_purple = "§d",
+    LightPurple = "§d",
     /** Hex: "#FFFF55" */
-    yellow = "§e",
+    Yellow = "§e",
     /** Hex: "#FFFFFF" */
-    white = "§f"
+    White = "§f",
+    /** Hex: "#DDD605"
+     * @remarks Bedrock Only
+     */
+    MinecoinGold = "§g",
+    /** Hex: "#E3D4D1"
+     * @remarks Bedrock Only
+     */
+    AaterialQuartz = "§h",
+    /** Hex: "#CECACA"
+     * @remarks Bedrock Only
+     */
+    MaterialIron = "§i",
+    /** Hex: "#443A3B"
+     * @remarks Bedrock Only
+     */
+    MaterialNetherite = "§j",
+    /** Hex: "#971607"
+     * @remarks Bedrock Only
+     */
+    MaterialRedstone = "§m",
+    /** Hex: "#B4684D"
+     * @remarks Bedrock Only
+     */
+    MaterialCopper = "§n",
+    /** Hex: "#DEB12D"
+     * @remarks Bedrock Only
+     */
+    MaterialGold = "§p",
+    /** Hex: "#47A036"
+     * @remarks Bedrock Only
+     */
+    MaterialEmerald = "§q",
+    /** Hex: "#2CBAA8"
+     * @remarks Bedrock Only
+     */
+    MaterialDiamond = "§s",
+    /** Hex: "#21497B"
+     * @remarks Bedrock Only
+     */
+    MaterialLapis = "§t",
+    /** Hex: "#9A5CC6"
+     * @remarks Bedrock Only
+     */
+    MaterialAmethyst = "§u"
   }
 
   //export type java_format_codes = format_codes;
 
-  export enum java_format_codes {
-    obfuscated = "§k",
-    bold = "§l",
+  export enum JavaFormatCodes {
+    Obfuscated = "§k",
+    Bold = "§l",
     /**@remarks Java Only */
-    striketrough = "§m",
+    Striketrough = "§m",
     /** @remarks Java Only */
-    underline = "§n",
-    italic = "§o",
-    reset = "§r"
+    Underline = "§n",
+    Italic = "§o",
+    Reset = "§r"
   }
