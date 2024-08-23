@@ -215,7 +215,7 @@ export enum color_codes {
 
   //export type java_format_codes = format_codes;
 
-  export enum format_codes {
+  export enum java_format_codes {
     obfuscated = "§k",
     bold = "§l",
     /**@remarks Java Only */
