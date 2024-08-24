@@ -1,5 +1,5 @@
 
-export enum ColorCodes {
+export declare enum ColorCodes {
     /** Hex: "#000000" */
     Black = "§0",
     /** Hex: "#0000AA" */
@@ -78,7 +78,7 @@ export enum ColorCodes {
     MaterialAmethyst = "§u"
   }
   
-  export enum formatCodes {
+  export declare enum formatCodes {
     Obfuscated = "§k",
     Bold = "§l",
     /**@remarks Java Only */
@@ -92,7 +92,7 @@ export enum ColorCodes {
   //I thought I could save some boilerplate but nope
   //export type bedrock_color_codes = color_codes;
 
-  export enum BedrockColorCodes {
+  export declare enum BedrockColorCodes {
     /** Hex: "#000000" */
     Black = "§0",
     /** Hex: "#0000AA" */
@@ -171,14 +171,14 @@ export enum ColorCodes {
     MaterialAmethyst = "§u"
   }
 
-  export enum BedrockFormatCodes {
+  export declare enum BedrockFormatCodes {
     Obfuscated = "§k",
     Bold = "§l",
     Italic = "§o",
     Reset = "§r"
   }
 
-  export enum JavaColorCodes {
+  export declare enum JavaColorCodes {
     /** Hex: "#000000" */
     Black = "§0",
     /** Hex: "#0000AA" */
@@ -259,7 +259,7 @@ export enum ColorCodes {
 
   //export type java_format_codes = format_codes;
 
-  export enum JavaFormatCodes {
+  export declare enum JavaFormatCodes {
     Obfuscated = "§k",
     Bold = "§l",
     /**@remarks Java Only */
