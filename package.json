@@ -1,6 +1,6 @@
 {
   "name": "minecraft-format-codes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Typescript enums for minecraft java and bedrock color codes.",
   "main": "index.js",
   "scripts": {
